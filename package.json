@@ -2,6 +2,7 @@
   "name": "create-next-example-app",
   "scripts": {
     "dev": "next",
+    "dev:server": "nodemon server/index.js",
     "build": "next build",
     "start": "next start"
   },
