@@ -24,8 +24,8 @@ app.prepare().then(() => {
 
     server.use(router.routes());
 
-    server.listen(3001, () => {
-        console.log(`next koa server listen on 3001!`)
+    server.listen(3002, () => {
+        console.log(`next koa server listen on 3002!`)
     })
 })
 
